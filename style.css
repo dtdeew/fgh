@@ -3,43 +3,69 @@ body{
 }
 .header{
 position: absolute;
-width:98%;
+width:100%;
 height: 110px;
 left:  0px;
-top: 0px;
-
+top: 5px;
 background: #C69870;
-border-radius: 120px;
-
+border-radius: 20px;
+position: fixed;
+}
+.icon{
 
 position: absolute;
-width: 18px;
-height: 169px;
-left: 1418px;
-top: 172px;
-
-background: #B3BE9A;
-border-radius: 150px;
+width: 180px;
+height: 100px;
+background: #D9C2A9;
+left: 1%;
+top: 6%;
+border-radius: 46%;
+}
+.square{
+position: absolute;
+width: 80px;
+height: 64px;
+left: 5%;
+background: rgba(191, 145, 104, 0.2);
+top: 1%;
+position: fixed;
 
 }
+.text{
+	position: absolute;
+width: 566px;
+height: 78px;
+left: 30px;
+top: 42px;
+position: fixed;
+font-family: 'Mate';
+font-style: normal;
+font-weight: 40;
+font-size: 27px;
+line-height: 75px;
+
+
+color: #A34428;
+}
+
 .sidebar{
 position:absolute;
 width: 300px;
 height: 80%;
 left: 0px;
 top: 130px;
-
+position: fixed;
 background: #E2E5D8;
 border-radius: 49px;
 }
 .content{
 position: absolute;
-width: 73%;
+width: 74%;
 height:80%;
-left: 329px;
+left: 25%;
 top: 128px;
 
 background: #DBC7B0;
 border-radius: 73px;
-
+position: fixed;
 }
